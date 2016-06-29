@@ -1,0 +1,4 @@
+ID	name	Binom_Genome_Fraction	Binom_Expected	Binom_Observed_Region_Hits	Binom_Fold_Enrichment	Binom_Region_Set_Coverage	Binom_Raw_PValue	Hyper_Total_Genes	Hyper_Expected	Hyper_Observed_Gene_Hits	Hyper_Fold_Enrichment	Hyper_Gene_Set_Coverage	Hyper_Term_Gene_Coverage	Hyper_Raw_PValue	FDR_Binom	FDR_Hyper
+P00031	Inflammation mediated by chemokine and cytokine signaling pathway	0.01759251	106.9097	245	2.291654	0.04031595	4.903153e-31	217	52.98956	100	1.887164	0.01933862	0.4608295	2.4711e-12	7.40376103e-29	1.243787e-10
+P00034	Integrin signalling pathway	0.01814853	110.2886	240	2.176108	0.03949317	2.232654e-27	165	40.2916	82	2.035163	0.01585767	0.4969697	1.712404e-12	1.68565377e-25	1.243787e-10
+P00006	Apoptosis signaling pathway	0.007748484	47.08754	101	2.144941	0.01662004	5.019735e-12	110	26.86107	43	1.60083	0.008315606	0.3909091	0.0004472673	1.8949499625e-10	0.00422108514375
