@@ -1,14 +1,29 @@
-# Project Name
+# doGREAT
 
-TODO: Write a project description
+This R script perform GREAT analysis starting from a BED file with genomic regions.
+You can use this program to automate the analysis of multiple BED files without manually download the results from the GREAT web site.
+The script saves one xls file for each ontology ("GO Molecular Function", "InterPro" etc.) in a given output directoy.
+Results can be filtered by FDR and binomial fold enrichment.
+
 
 ## Installation
 
-TODO: Describe the installation process
+Dowload and run! 
+
+Required packages:
+- getopt (CRAN)
+- rGREAT (Bioconductor)
+
+
 
 ## Usage
 
-TODO: Write usage instructions
+Run "R --vanilla --slave --args --help < main.R" to have the complete list of parameters.
+
+To make a GREAT analysis on genomic regions in "regions.bed" with genome release "mm9" and to filter results by FDR <= 0.05 and binomial fold enrichment >= 2,
+run "R --vanilla --slave --args --infile "regions.bed" --release "mm9" -v < main.R";
+The output of this analysis is included in the "results" folder of this repo.
+
 
 ## Contributing
 
@@ -20,12 +35,12 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+This is the first release!
 
 ## Credits
 
-TODO: Write credits
+Alberto Termanini
 
 ## License
 
-TODO: Write license
+See LICENCE file
