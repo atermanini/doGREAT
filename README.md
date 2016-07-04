@@ -21,9 +21,8 @@ Required packages:
 Run `R --vanilla --slave --args --help < main.R` to have the complete list of parameters.
 
 To run a GREAT analysis with genome release "mm9" and to filter results by FDR <= 0.05 and binomial fold enrichment >= 2,
-run `R --vanilla --slave --args --infile "regions.bed" --release "mm9" -v < main.R`;
-The output of this analysis is included in the "results" folder of this repo.
-
+run `R --vanilla --slave --args --infile "regions.bed" --release "mm9" -v < main.R`.
+See run.sh in example folder.
 
 ## Contributing
 
